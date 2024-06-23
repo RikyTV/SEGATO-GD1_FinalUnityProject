@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2420594712389365383}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74,15 +74,15 @@ MonoBehaviour:
   - m_Vertices: 03000000
   m_SharedTextures: []
   m_Positions:
-  - {x: -11.625584, y: 0.0001, z: -8.136347}
-  - {x: -11.625584, y: 0.0001, z: 1.8636532}
-  - {x: -1.6255836, y: 0.0001, z: -8.136347}
-  - {x: -1.6255836, y: 0.0001, z: 1.8636532}
+  - {x: -7.1255836, y: 0.0001, z: -3.6363468}
+  - {x: -7.1255836, y: 0.0001, z: -2.6363468}
+  - {x: -6.1255836, y: 0.0001, z: -3.6363468}
+  - {x: -6.1255836, y: 0.0001, z: -2.6363468}
   m_Textures0:
-  - {x: -11.625584, y: -8.136347}
-  - {x: -11.625584, y: 1.8636532}
-  - {x: -1.6255836, y: -8.136347}
-  - {x: -1.6255836, y: 1.8636532}
+  - {x: -7.1255836, y: -3.6363468}
+  - {x: -7.1255836, y: -2.6363468}
+  - {x: -6.1255836, y: -3.6363468}
+  - {x: -6.1255836, y: -2.6363468}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3995
+  m_VersionIndex: 4021
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -118,11 +118,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Shape:
     rid: 5499508067617472537
-  m_Size: {x: 10, y: 0, z: 10}
+  m_Size: {x: 1, y: 0, z: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_PivotLocation: 1
   m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 3995
+  m_UnmodifiedMeshVersion: 4021
   m_ShapeBox:
     m_Center: {x: -6.6255836, y: 0.0001, z: -3.1363468}
     m_Extent: {x: 0.5, y: 0, z: 0.5}
