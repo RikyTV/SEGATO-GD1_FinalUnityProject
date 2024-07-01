@@ -53,7 +53,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 32.96973
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -81,7 +81,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -153,7 +153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6997128273016465182}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.018141445, y: -0.0000000037658117, z: 4.122745e-10, w: 0.99983543}
+  m_LocalRotation: {x: -0.018141452, y: 0.000000008174667, z: -9.080317e-10, w: 0.99983543}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -232,7 +232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6997128273296012431}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000007450581, y: -0.000000007468918, z: 9.610661e-10, w: 1}
+  m_LocalRotation: {x: -0, y: 0.000000011612046, z: -0.000000001503576, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -423,6 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6997128274211590175}
   - component: {fileID: 6997128274211590172}
+  - component: {fileID: 1953217896289715179}
   m_Layer: 0
   m_Name: V Cam
   m_TagString: Untagged
@@ -439,7 +440,7 @@ Transform:
   m_GameObject: {fileID: 6997128274211590174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -553,6 +554,36 @@ MonoBehaviour:
   - {fileID: 6997128274431015203}
   - {fileID: 6997128273296012429}
   - {fileID: 6997128273016465180}
+--- !u!114 &1953217896289715179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6997128274211590174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IgnoreTag: Enemy
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0.15
+  m_Damping: 1
+  m_DampingWhenOccluded: 1
+  m_OptimalTargetDistance: 0
 --- !u!1 &6997128274274861726
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6997128274431015213}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.018189492, y: -0.0000000037483514, z: 5.4879534e-10, w: 0.9998346}
+  m_LocalRotation: {x: 0.018189484, y: 0.00000000813629, z: -0.0000000012043768, w: 0.9998346}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
