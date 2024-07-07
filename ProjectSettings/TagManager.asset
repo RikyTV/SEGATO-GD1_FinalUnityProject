@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Do Not Collide
+  - Weapon
+  - Boss
   layers:
   - Default
   - TransparentFX

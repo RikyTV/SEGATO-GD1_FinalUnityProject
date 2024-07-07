@@ -13,6 +13,7 @@ public class SimplePlayer : MonoBehaviour
     float input_y;
     void Start()
     {
+        Cursor.visible = false;
         rb = GetComponent<Rigidbody>();
     }
 
