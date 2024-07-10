@@ -92,8 +92,7 @@ public class TargetLock : MonoBehaviour
 
     private GameObject ClosestTarget() // this is modified func from unity Docs ( Gets Closest Object with Tag ). 
     {
-        GameObject[] gos;
-        gos = GameObject.FindGameObjectsWithTag(enemyTag);
+        GameObject[] gos = GameObject.FindGameObjectsWithTag(enemyTag);
         GameObject closest = null;
         float distance = maxDistance;
         float currAngle = maxAngle;
